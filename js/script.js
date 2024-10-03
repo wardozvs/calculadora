@@ -17,19 +17,19 @@ function substractNumbers(){
 }
 
 function multiInputs() {
-    const input1 = document.getElementById('input1').value;
-    const input2 = document.getElementById('input2').value;
+    const num1 = document.getElementById('num1').value;
+    const num2 = document.getElementById('num2').value;
 
-    const product = parseFloat(input1) * parseFloat(input2); // Multiplicación
+    const product = parseFloat(num1) * parseFloat(num2); // Multiplicación
 
     document.getElementById('result').textContent = product;
 }
 
 function dividirInputs() {
-    const input1 = document.getElementById('input1').value;
-    const input2 = document.getElementById('input2').value;
+    const num1 = document.getElementById('num1').value;
+    const num2 = document.getElementById('num2').value;
 
-    const product = parseFloat(input1) / parseFloat(input2); // Multiplicación
+    const product = parseFloat(num1) / parseFloat(num2); // Multiplicación
 
     document.getElementById('result').textContent = product;
 }
